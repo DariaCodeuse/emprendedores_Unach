@@ -2,7 +2,7 @@
     {
         "id": "torta-01",
         "titulo": "torta 01",
-        "imagen": "./img/comida/01.jpg",
+        "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
             "id": "torta"
@@ -12,7 +12,7 @@
     {
         "id": "torta-01",
         "titulo": "torta 01",
-        "imagen": "./img/comida/01.jpg",
+        "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
             "id": "torta"
@@ -22,7 +22,7 @@
     {
         "id": "torta-01",
         "titulo": "torta 01",
-        "imagen": "./img/comida/01.jpg",
+        "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
             "id": "torta"
@@ -32,7 +32,7 @@
     {
         "id": "torta-01",
         "titulo": "torta 01",
-        "imagen": "./img/comida/01.jpg",
+        "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
             "id": "torta"
@@ -42,7 +42,7 @@
     {
         "id": "torta-01",
         "titulo": "torta 01",
-        "imagen": "./img/comida/01.jpg",
+        "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
             "id": "torta"
@@ -52,7 +52,7 @@
     {
         "id": "micelania-01",
         "titulo": "micelania 01",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelania",
             "id": "micelania"
@@ -62,7 +62,7 @@
     {
         "id": "micelania-02",
         "titulo": "micelania 02",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelania",
             "id": "micelania"
@@ -72,7 +72,7 @@
     {
         "id": "micelania-03",
         "titulo": "micelania 03",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelania",
             "id": "micelania"
@@ -82,7 +82,7 @@
     {
         "id": "micelania-04",
         "titulo": "micelania 04",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelania",
             "id": "micelania"
@@ -92,7 +92,7 @@
     {
         "id": "micelania-05",
         "titulo": "micelania 05",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelania",
             "id": "micelania"
@@ -102,7 +102,7 @@
     {
         "id": "micelania-06",
         "titulo": "micelania 06",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelanias",
             "id": "micelanias"
@@ -112,7 +112,7 @@
     {
         "id": "micelania-07",
         "titulo": "micelania 07",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelanias",
             "id": "micelanias"
@@ -122,7 +122,7 @@
     {
         "id": "micelania-08",
         "titulo": "micelania 08",
-        "imagen": "./img/micelania/01.jpg",
+        "imagen": "../assets/_img/categorias/miscelanea.jpg",
         "categoria": {
             "nombre": "micelanias",
             "id": "micelanias"
@@ -132,7 +132,7 @@
     {
         "id": "servicios-01",
         "titulo": "servios 01",
-        "imagen": "./img/servicios/01.jpg",
+        "imagen": "../assets/_img/categorias/servicios.jpg",
         "categoria": {
             "nombre": "servios",
             "id": "servios"
@@ -142,7 +142,7 @@
     {
         "id": "servicios-02",
         "titulo": "servios 02",
-        "imagen": "./img/servicios/01.jpg",
+        "imagen": "../assets/_img/categorias/servicios.jpg",
         "categoria": {
             "nombre": "servios",
             "id": "servios"
@@ -152,7 +152,7 @@
     {
         "id": "servicios-03",
         "titulo": "servios 03",
-        "imagen": "./img/servicios/01.jpg",
+        "imagen": "../assets/_img/categorias/servicios.jpg",
         "categoria": {
             "nombre": "servios",
             "id": "servios"
@@ -162,7 +162,7 @@
     {
         "id": "servicios-04",
         "titulo": "servios 04",
-        "imagen": "./img/servicios/01.jpg",
+        "imagen": "../assets/_img/categorias/servicios.jpg",
         "categoria": {
             "nombre": "servios",
             "id": "servios"
@@ -172,7 +172,7 @@
     {
         "id": "servicios-05",
         "titulo": "servios 05",
-        "imagen": "./img/servicios/01.jpg",
+        "imagen": "../assets/_img/categorias/servicios.jpg",
         "categoria": {
             "nombre": "servios",
             "id": "servios"
