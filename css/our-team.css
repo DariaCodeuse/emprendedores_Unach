@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/* --------- Our TEAM --------- */
+/* Estilos para cada miembro del equipo */
+#our-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .50s ease;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    color: #68B5D9;
+    background: #EAF7FC;
+}
+.top p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.team-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: all .50s ease;
+}
+.team-member{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member h3 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
