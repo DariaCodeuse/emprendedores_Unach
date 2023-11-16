@@ -66,18 +66,22 @@
                     </div>
 
                     <p>USAR CORREO DE ESTUDIANTE</p>
-                    <form class="form">
+                    <form class="form" action="procesar_registro.php" method="post">
                         <label>
                             <i class='bx bx-user-circle'></i>
-                            <input type="text" placeholder="NOMBRE COMPLETO">
+                            <input type="text" name="nombre" placeholder="NOMBRES" required>
                         </label>
                         <label>
                             <i class='bx bxl-gmail'></i>
-                            <input type="email" placeholder="CUENTA EDUCA-T">
+                            <input type="text" name="apellidos" placeholder="APELLIDOS" required>
+                        </label>
+                        <label>
+                            <i class='bx bxl-gmail'></i>
+                            <input type="email" name="email" placeholder="CORREO ELECTRÓNICO" required>
                         </label>
                         <label>
                             <i class='bx bx-lock-alt'></i>
-                            <input type="password" placeholder="CONTRASEÑA">
+                            <input type="password" name="contraseña" placeholder="GENERA UNA CONTRASEÑA" required>
                         </label>
                         <input type="submit" value="REGISTRARSE">
                     </form>
