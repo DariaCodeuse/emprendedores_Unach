@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registra tu emprendimiento</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/registro-empresas.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@200;300;600&family=Red+Hat+Display:wght@400;700&family=Rubik&family=Urbanist:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="header">
+        <img class="logo" src="../assets/identity/logo.svg" alt="Emprendedores UNACH">
+
+        <ul class="navbar">
+            <li><a class="active" href="../index.html">INICIO</a></li>
+            <li><a href="../pages/categorias.html">CATEGORIAS </a></li>
+            <li><a href="../index.html">MARCAS</a></li>
+            <li><a href="../pages/our-team.html">NOSOTRAS</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="https://github.com/dariaa37/emprendedores_Unach/tree/main" class="git-logo"><i class="ri-github-fill"></i></a>
+            <div class="nav-user" id="user-menu">
+                <a href="#"><i class="ri-user-6-line"></i>Cuenta</a>
+                
+                <div class="user-menu-content">
+                    <a href="./registro-usuario.html">Registrarse</a>
+                    <a href="../pages/registro-empresas.html">¿Eres emprendedor?</a>
+                </div>
+            </div>
+            <a href="../pages/carrito.html" class="nav-icon"><i class="ri-shopping-bag-3-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </section>
+
+    <section class="contact-box">
+        <div class="row no-gutters bg-dark">
+            <div class="col-xl-5 col-lg-12 register-bg">
+                <div class="position-absolute testiomonial p-4">
+                    <h3 class="font-weight-bold text-light">La siguiente revolución digital.</h3>
+                    <p class="lead text-light">La nueva etapa de la revolución digital se aproxima.</p>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-12 d-flex">
+                <div class="container align-self-center p-6">
+                    <h1 class="font-weight-bold mb-3">Crea tu cuenta de empresa</h1>
+                    <div class="form-group">
+                        <button class="btn btn-outline-dark d-inline-block text-light mr-2 mb-3 width-100"><i
+                                class="icon ion-logo-google lead align-middle mr-2"></i> Google </button>
+                        <button class="btn btn-outline-dark d-inline-block text-light mb-3 width-100"><i
+                                class="icon ion-logo-facebook lead align-middle mr-2"></i> Facebook</button>
+                    </div>
+                    <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
+
+                    <form>
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Nombre de la empresa <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Descripción <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Descripción">
+                            </div>
+
+                            <label>Imagen para tu perfil de empresa</label>
+                            <form action="next.php" method="post" enctype="multipart/form-data">
+                                <label for="image"></label>
+                                <input type="file" name="image" id="image" accept="image/*"><br>
+                                <input type="submit" name="submit" value="Enviar">
+                            </form>
+                            <br><br>
+                            <br><br>
+                            <label>Selecciona categoria:</label>
+                            <select id="categoria" name="categoria">
+                                <option value="Opciones"></option>
+                                <option value="Alimentos">Alimentos</option>
+                                <option value="Miscelanea">Miscelanea</option>
+                                <option value="Servicios">Servicios</option>
+                            </select>
+
+                            <br><br>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="font-weight-bold">Correo electrónico <span
+                                    class="text-danger">*</span></label>
+                            <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="font-weight-bold">Contraseña <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" placeholder="Ingresa una contraseña">
+                        </div>
+                        <div class="form-group mb-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label text-muted">Al seleccionar esta casilla aceptas
+                                    nuestro aviso de privacidad y los términos y condiciones</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary width-100">Regístrate</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/categorias.html">Categorias</a></li>
+                    <li><a href="https://github.com/dariaa37/emprendedores_Unach/tree/main">Repositorio en GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@example.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-twitter-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,20 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categorias</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Carrito</title>
     <link rel="stylesheet" href="../css/categorias.css">
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@200;300;600&family=Red+Hat+Display:wght@400;700&family=Rubik&family=Urbanist:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="header">
+        <img class="logo" src="../assets/identity/logo.svg" alt="Emprendedores UNACH">
+
+        <ul class="navbar">
+            <li><a class="active" href="../index.html">INICIO</a></li>
+            <li><a href="../pages/categorias.html">CATEGORIAS </a></li>
+            <li><a href="../index.html">MARCAS</a></li>
+            <li><a href="../pages/our-team.html">NOSOTRAS</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="https://github.com/dariaa37/emprendedores_Unach/tree/main" class="git-logo"><i class="ri-github-fill"></i></a>
+            <div class="nav-user" id="user-menu">
+                <a href="#"><i class="ri-user-6-line"></i>Cuenta</a>
+                
+                <div class="user-menu-content">
+                    <a href="./registro-usuario.html">Registrarse</a>
+                    <a href="../pages/registro-empresas.html">¿Eres emprendedor?</a>
+                </div>
+            </div>
+            <a href="../pages/carrito.html" class="nav-icon"><i class="ri-shopping-bag-3-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </section>
     <div class="wrapper">
         <header class="header-mobile">
-            <h1 class="logo">Categorias</h1>
+            <h1 class="logo">Carrito</h1>
             <button class="open-menu" id="open-menu">
                 <i class="bi bi-list"></i>
             </button>
@@ -24,14 +54,14 @@
                 <i class="bi bi-x"></i>
             </button>
             <header>
-                <h1 class="logo">categoria</h1>
+                <h1 class="logo">Categorias</h1>
             </header>
             <nav>
                 <ul>
                     <li>
                         <a class="boton-menu boton-volver" href="../pages/categorias.html">
-                            <i class="ri-arrow-left-fill"></i> Seguir comprando 
-                            
+                            <i class="ri-arrow-left-fill"></i> Seguir comprando
+
                         </a>
                     </li>
                     <li>
@@ -41,86 +71,116 @@
                     </li>
                 </ul>
             </nav>
-            <footer>
+            <div>
                 <p class="texto-footer">Emprendedores UNACH</p>
-            </footer>
+            </div>
         </aside>
         <main>
             <h2 class="titulo-principal">Carrito</h2>
             <div class="contenedor-carrito">
-                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="ri-emotion-unhappy-line"></i></p>
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i
+                        class="ri-emotion-unhappy-line"></i></p>
 
                 <div id="carrito-productos" class="carrito-productos disabled">
                     <!-- //// -->
-
-
                     <div class="carrito-producto">
                         <img class="carrito-producto-imagen" src="../assets/_img/categorias/comida.jpg" alt="torta-01">
                         <div class="carrito-producto-titulo">
                             <small>TITULO</small>
                             <h3>Torta 1</h3>
                         </div>
-                    <div class="carrito-producto-cantidad">
-                        <small>Catidad</small>
-                        <p>1</p>
-                    </div>
-                    <div class="carrito-productos-precio">
-                        <small>Precio</small>
-                        <p>35</p>
-                    </div>
-
-                    <div class="carrito-producto-subtotal">
-                        <small>Subtotal</small>
-                        <p>$35</p>
-                    </div>
-                    <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i> </button>
-                </div>
-
-                <div class="carrito-producto">
-                    <img class="carrito-producto-imagen" src="../assets/_img/categorias/miscelanea.jpg" alt="micelania" >
-                    <div class="carrito-producto-titulo">
-                        <small>TITULO</small>
-                        <h3>Utilces</h3>
-                    </div>
-                <div class="carrito-producto-cantidad">
-                    <small>Catidad</small>
-                    <p>1</p>
-                </div>
-                <div class="carrito-productos-precio">
-                    <small>Precio</small>
-                    <p>25</p>
-                </div>
-
-                <div class="carrito-producto-subtotal">
-                    <small>Subtotal</small>
-                    <p>$25</p>
-                </div>
-                <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i> </button>
-            </div>
-<!-- 3 -->
-
-                <div id="carrito-acciones" class="carrito-acciones disabled">
-                    <div class="carrito-acciones-izquierda">
-                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
-                    </div>
-                    <div class="carrito-acciones-derecha">
-                        <div class="carrito-acciones-total">
-                            <p>Total:</p>
-                            <p id="total">$30</p>
+                        <div class="carrito-producto-cantidad">
+                            <small>Catidad</small>
+                            <p>1</p>
                         </div>
-                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                        <div class="carrito-productos-precio">
+                            <small>Precio</small>
+                            <p>35</p>
+                        </div>
+
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$35</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i> </button>
                     </div>
+
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="../assets/_img/categorias/miscelanea.jpg"
+                            alt="micelania">
+                        <div class="carrito-producto-titulo">
+                            <small>TITULO</small>
+                            <h3>Utilces</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Catidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-productos-precio">
+                            <small>Precio</small>
+                            <p>25</p>
+                        </div>
+
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$25</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i> </button>
+                    </div>
+                    <!-- 3 -->
+
+                    <div id="carrito-acciones" class="carrito-acciones disabled">
+                        <div class="carrito-acciones-izquierda">
+                            <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                        </div>
+                        <div class="carrito-acciones-derecha">
+                            <div class="carrito-acciones-total">
+                                <p>Total:</p>
+                                <p id="total">$30</p>
+                            </div>
+                            <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar
+                                ahora</button>
+                        </div>
+                    </div>
+
+                    <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i
+                            class="ri-emotion-happy-line"></i>
+
                 </div>
-
-                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="ri-emotion-happy-line"></i>
-
-            </div>
         </main>
     </div>
-    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/categorias.html">Categorias</a></li>
+                    <li><a href="https://github.com/dariaa37/emprendedores_Unach/tree/main">Repositorio en GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@example.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-twitter-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js "></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../js/carrito.js"></script>
+    <script src="../js/script.js"></script>
     <script src="../js/menu.js"></script>
 </body>
-</html> 
+
+</html>

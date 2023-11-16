@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categorias</title>
     <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="../css/categorias.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/categorias.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@200;300;600&family=Red+Hat+Display:wght@400;700&family=Rubik&family=Urbanist:wght@700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <section id="header">
+        <img class="logo" src="../assets/identity/logo.svg" alt="Emprendedores UNACH">
+
+        <ul class="navbar">
+            <li><a class="active" href="../index.html">INICIO</a></li>
+            <li><a href="../pages/categorias.html">CATEGORIAS </a></li>
+            <li><a href="../index.html">MARCAS</a></li>
+            <li><a href="../pages/our-team.html">NOSOTRAS</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="https://github.com/dariaa37/emprendedores_Unach/tree/main" class="git-logo"><i class="ri-github-fill"></i></a>
+            <div class="nav-user" id="user-menu">
+                <a href="#"><i class="ri-user-6-line"></i>Cuenta</a>
+                
+                <div class="user-menu-content">
+                    <a href="./registro-usuario.html">Registrarse</a>
+                    <a href="../pages/registro-empresas.html">¿Eres emprendedor?</a>
+                </div>
+            </div>
+            <a href="../pages/carrito.html" class="nav-icon"><i class="ri-shopping-bag-3-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </section>
 
     <div class="wrapper">
         <header class="header-mobile">
@@ -31,16 +63,20 @@
             <nav>
                 <ul class="menu">
                     <li>
-                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                        <button id="todos" class="boton-menu boton-categoria active"><i
+                                class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
                     </li>
                     <li>
-                        <button id="Comida" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Comida</button>
+                        <button id="Comida" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Comida</button>
                     </li>
                     <li>
-                        <button id="Miscelánea" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Miscelánea </button>
+                        <button id="Miscelánea" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i> Miscelánea </button>
                     </li>
                     <li>
-                        <button id="Servicios" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Servicios</button>
+                        <button id="Servicios" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Servicios</button>
                     </li>
                     <li>
                         <a class="boton-menu boton-carrito" href="../pages/carrito.html">
@@ -49,17 +85,17 @@
                     </li>
                 </ul>
             </nav>
-            <footer>
-                <p class="texto-footer"> Emprendedores UNACH</p>
-            </footer>
+            <div>
+                <p class="texto-footer">Emprendedores UNACH</p>
+            </div>
         </aside>
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
             <div id="contenedor-productos" class="contenedor-productos">
-<!-- 01 -->
+                <!-- 01 -->
                 <div class=" Producto">
                     <img class="producto-imagen" src="../assets/_img/categorias/comida.jpg" alt="">
-                    <div class ="producto-detalles">
+                    <div class="producto-detalles">
                         <h3 class="producto-titulo">Torta</h3>
                         <p clas="Producto-precio">$35</p>
                         <button id="torta-01" class="producto-agregar">Agregar </button>
@@ -68,7 +104,7 @@
 
                 <div class=" Producto">
                     <img class="producto-imagen" src="../assets/_img/categorias/comida.jpg" alt="">
-                    <div class ="producto-detalles">
+                    <div class="producto-detalles">
                         <h3 class="producto-titulo">Torta</h3>
                         <p clas="Producto-precio">$35</p>
                         <button id="torta-02" class="producto-agregar">Agregar </button>
@@ -77,7 +113,7 @@
 
                 <div class=" Producto">
                     <img class="producto-imagen" src="../assets/_img/categorias/comida.jpg" alt="">
-                    <div class ="producto-detalles">
+                    <div class="producto-detalles">
                         <h3 class="producto-titulo">Torta</h3>
                         <p clas="Producto-precio">$35</p>
                         <button id="torta-03" class="producto-agregar">Agregar </button>
@@ -86,7 +122,7 @@
 
                 <div class=" Producto">
                     <img class="producto-imagen" src="../assets/_img/categorias/comida.jpg" alt="">
-                    <div class ="producto-detalles">
+                    <div class="producto-detalles">
                         <h3 class="producto-titulo">Torta</h3>
                         <p clas="Producto-precio">$35</p>
                         <button id="torta-04" class="producto-agregar">Agregar </button>
@@ -95,7 +131,7 @@
 
                 <div class=" Producto">
                     <img class="producto-imagen" src="../assets/_img/categorias/comida.jpg" alt="">
-                    <div class ="producto-detalles">
+                    <div class="producto-detalles">
                         <h3 class="producto-titulo">Torta</h3>
                         <p clas="Producto-precio">$35</p>
                         <button id="torta-05" class="producto-agregar">Agregar </button>
@@ -197,9 +233,38 @@
 
         </main>
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/categorias.html">Categorias</a></li>
+                    <li><a href="https://github.com/dariaa37/emprendedores_Unach/tree/main">Repositorio en GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@example.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-twitter-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
     
     <script type="text/javascript" src=" https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="../js/categorias.js"></script>
+    <script src="../js/script.js"></script>
     <script src="../js/menu.js"></script>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>

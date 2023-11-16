@@ -125,6 +125,31 @@ body{
     z-index: 10001;
     display: none;
 }
+
+/* Estilos para el menú desplegable */
+.user-menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+}
+
+.nav-user:hover .user-menu-content {
+    display: block;
+}
+
+.user-menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.user-menu-content a:hover {
+    background-color: #f1f1f1;
+}
 /* --------- HERO PAGE --------- */
 #hero{
     background-image: url("../assets/identity/hero.jpg");
@@ -173,6 +198,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all .50s ease;
 }
 .emp-desc{                      /*Parrafo descriptivo con subtitulo*/
     display: flex;
@@ -249,7 +275,7 @@ body{
 .carousel .card{
     scroll-snap-align: start;
     height: 340px;
-    background: #e34343;
+    background: #F2F4F7;
     border-radius: 10px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
     padding-bottom: 15px;
@@ -279,6 +305,59 @@ body{
     color: #252627;
     font-size: 1rem;
 }
+
+/* --------- Footer ----------*/
+/* Estilos generales del footer */
+footer {
+    background-color: #2f3439;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%23495057' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 40%;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #ecbd2e;
+    border-bottom: 1px solid #777;
+    padding-bottom: 5px;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ddd;
+}
+
+.social-icon {
+    font-size: 1.4rem;
+    margin-right: 8px;
+}
+
+/* Estilos del footer inferior */
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #777;
+}
+
+/* ----- MEDIAS -----*/
 @media (max-width: 1100px){
     .header{
         padding: 14px 2%;
@@ -289,21 +368,25 @@ body{
         margin: 0px 20px;
     }
 }
-
 @media (max-width: 1090px){
     #menu-icon{
         display: block;
     }
     .navbar{
         display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 100%;
     }
     .navbar a{
         display: block;
-        margin: 12px 0px; 
+        margin: 12px 10px; 
         padding: 0px 25px;
         transition: all .50s ease;
         color: #080681;
-        font-weight: 600;
+        font-weight: 400;
     }
      .navbar a:hover{
         color: #016fd4;
@@ -312,20 +395,20 @@ body{
     } 
     .navbar a.active{
         color: #016fd4;
-        font-weight: 600;
+        font-weight: 400;
         border-color: #016fd4;
     }
     .navbar.open{
+        display: none;
         position: absolute;
         top: 100%;
         right: 2%;
         width: 250px;
         height: 29vh;
-        background-image: linear-gradient(to right bottom, #e8e8ef, #e0e2f0, #d7ddf2, #cbd8f3, #bed4f4, #adcaf2, #9bc1f0, #87b7ee, #6da5e8, #5293e2, #3581db, #016fd4);
+        background-color: #f9f9f9;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        border-radius: 8px;
     }
 }
 
@@ -369,25 +452,5 @@ body{
     }   
 }
 
-/* --------- Our TEAM --------- */
-.our-team{
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    place-items: center;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.column{
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 0 lem lem lem;
-    text-align: center;
-}
-.t-card{
-    border: 1px solid #3f3f3f;
-}
 
 

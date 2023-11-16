@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotras</title>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <link rel="stylesheet" href="../css/our-team.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
@@ -18,7 +21,31 @@
 </head>
 
 <body>
-    <div id="header"></div>
+    <section id="header">
+        <img class="logo" src="../assets/identity/logo.svg" alt="Emprendedores UNACH">
+
+        <ul class="navbar">
+            <li><a class="active" href="../index.html">INICIO</a></li>
+            <li><a href="../pages/categorias.html">CATEGORIAS </a></li>
+            <li><a href="../index.html">MARCAS</a></li>
+            <li><a href="../pages/our-team.html">NOSOTRAS</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="https://github.com/dariaa37/emprendedores_Unach/tree/main" class="git-logo"><i class="ri-github-fill"></i></a>
+            <div class="nav-user" id="user-menu">
+                <a href="#"><i class="ri-user-6-line"></i>Cuenta</a>
+                
+                <div class="user-menu-content">
+                    <a href="./registro-usuario.html">Registrarse</a>
+                    <a href="../pages/registro-empresas.html">¿Eres emprendedor?</a>
+                </div>
+            </div>
+            <a href="../pages/carrito.html" class="nav-icon"><i class="ri-shopping-bag-3-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </section>
+
     <section id="our-team">
         <div class="top">
             <h2>Conoce a nuestro equipo</h2>
@@ -68,5 +95,33 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/categorias.html">Categorias</a></li>
+                    <li><a href="https://github.com/dariaa37/emprendedores_Unach/tree/main">Repositorio en GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@example.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-twitter-fill"></i></a>
+                <a href="#" class="social-icon"><i class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
