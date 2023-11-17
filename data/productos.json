@@ -10,8 +10,8 @@
         "precio": 35
     },
     {
-        "id": "torta-01",
-        "titulo": "torta 01",
+        "id": "torta-02",
+        "titulo": "torta 02",
         "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
@@ -20,8 +20,8 @@
         "precio": 35
     },
     {
-        "id": "torta-01",
-        "titulo": "torta 01",
+        "id": "torta-03",
+        "titulo": "torta 03",
         "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
@@ -30,8 +30,8 @@
         "precio": 35
     },
     {
-        "id": "torta-01",
-        "titulo": "torta 01",
+        "id": "torta-04",
+        "titulo": "torta 04",
         "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
@@ -40,8 +40,8 @@
         "precio": 35
     },
     {
-        "id": "torta-01",
-        "titulo": "torta 01",
+        "id": "torta-05",
+        "titulo": "torta 05",
         "imagen": "../assets/_img/categorias/comida.jpg",
         "categoria": {
             "nombre": "torta",
